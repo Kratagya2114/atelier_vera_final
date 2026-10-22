@@ -1,0 +1,33 @@
+{
+  "name": "atelier-vera-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ATELIER VERA — Bespoke Residential, Boutique Hospitality & Collectible Spatial Design Full-Stack Platform",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "mail:test": "tsx scripts/test-mail.ts",
+    "typecheck": "tsc --noEmit",
+    "setup": "node scripts/setup-env.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.446.0",
+    "next": "^14.2.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "nodemailer": "^6.9.15"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.10",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "@types/nodemailer": "^6.4.16",
+    "dotenv": "^16.4.5"
+  }
+}
